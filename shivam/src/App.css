@@ -1,0 +1,55 @@
+.image{
+height: 12vh;
+width: 10v;
+/* padding: 30px; */
+}
+.addproduct{
+  background-color:rgb(224, 11, 11);
+  color: #fff;
+  padding: 4px;
+  margin-right: 25px;
+  border-radius: 50%;
+}
+.addproductbadge{
+  margin-top: 10px;
+ 
+}
+.top{
+  margin-top: 5vh;
+}
+.textcart{
+  font-size: 10px;
+}
+
+.counter{
+  margin-top: 3vh;
+  margin-left: 6vw;
+}
+.navlink{
+  text-decoration: none !important;
+  padding: 10px !important;
+}
+.Placeorderbtn{
+  border: none;
+  padding: 10px;
+  color: #fff;
+  background-color: blue;
+  border-radius: 2px;
+  width: 100%;
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.imgs{
+height: auto;
+width: 100%;
+}
+
+.slider-container {
+  margin: 0px; 
+   padding: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
