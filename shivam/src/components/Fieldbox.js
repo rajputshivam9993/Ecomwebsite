@@ -109,9 +109,10 @@ const Fieldbox = ({ handleRefresh, data }) => {
                       <Card.Text>
                         <strong>{prod.ProducttName}</strong>
                       </Card.Text>
-                      <Card.Text>
-                        <ins>Rs. {prod.Price}</ins>
-                      </Card.Text>
+                      <text style={{ fontSize: 12 }}>
+                        <del>Rs.3500</del>
+                        <ins>Rs.{prod.Price}</ins>
+                      </text>
                       <button
                         onClick={() => addToCart(prod._id)}
                         type="button"

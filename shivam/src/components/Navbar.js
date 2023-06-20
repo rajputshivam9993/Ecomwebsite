@@ -64,7 +64,7 @@ function Navbarf({ refreshValue, onDataChange }) {
       setuserid(decodedToken.id);
       fetchCartCount();
     }
-  }, [fetchCartCount]);
+  }, [fetchCartCount,refreshValue]);
 
   const Handelclick = () => {
     navigate("/cartShow");
@@ -128,7 +128,7 @@ function Navbarf({ refreshValue, onDataChange }) {
               <button className="btn " onClick={handleLogout}>
                 Logout
               </button>
-             {username}
+              {username}
             </div>
           ) : (
             <button className="btn mt-2" onClick={Login}>
